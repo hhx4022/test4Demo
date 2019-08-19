@@ -20,7 +20,7 @@ Scenario case3:输入错误密码
     【expectMsg=密码不正确！】
 Scenario case5:输入错误密码123
     When login
-    【userName=admin1】
+    【userName=admin】
     【userPass=1234567】
     Then checkMsg
     【expectMsg=密码不正确！】
