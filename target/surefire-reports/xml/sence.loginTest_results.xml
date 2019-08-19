@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test4Demo"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.056">
+  <properties />
+  
+  
+            <testcase name="runScenario" time="0.013" classname="sence.loginTest" />
+                <testcase name="runScenario" time="0.016" classname="sence.loginTest" />
+                <testcase name="runScenario" time="0.015" classname="sence.loginTest" />
+                <testcase name="runScenario" time="0.012" classname="sence.loginTest" />
+      
+</testsuite>

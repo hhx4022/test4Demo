@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="1352" started-at="2019-08-19T07:09:42Z" finished-at="2019-08-19T07:09:43Z">
+    <groups>
+      <group name="createServer">
+        <method signature="createServerTest.runScenario(org.test4j.spec.inner.IScenario)[pri:0, instance:sence.createServerTest@61f8bee4]" name="runScenario" class="sence.createServerTest"/>
+      </group> <!-- createServer -->
+      <group name="login">
+        <method signature="loginTest.runScenario(org.test4j.spec.inner.IScenario)[pri:0, instance:sence.loginTest@6ebc05a6]" name="runScenario" class="sence.loginTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="test4Demo" duration-ms="1352" started-at="2019-08-19T07:09:42Z" finished-at="2019-08-19T07:09:43Z">
+      <class name="sence.createServerTest">
+        <test-method status="PASS" signature="aBeforeClass(org.testng.ITestContext)[pri:0, instance:sence.createServerTest@61f8bee4]" name="aBeforeClass" is-config="true" duration-ms="15" started-at="2019-08-19T15:09:42Z" finished-at="2019-08-19T15:09:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2059ae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBeforeClass -->
+        <test-method status="PASS" signature="initPrinter()[pri:0, instance:sence.createServerTest@61f8bee4]" name="initPrinter" is-config="true" duration-ms="0" started-at="2019-08-19T15:09:42Z" finished-at="2019-08-19T15:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPrinter -->
+        <test-method status="PASS" signature="aBeforeMethod(java.lang.reflect.Method)[pri:0, instance:sence.createServerTest@61f8bee4]" name="aBeforeMethod" is-config="true" duration-ms="24" started-at="2019-08-19T15:09:42Z" finished-at="2019-08-19T15:09:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.createServerTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBeforeMethod -->
+        <test-method status="PASS" signature="runScenario(org.test4j.spec.inner.IScenario)[pri:0, instance:sence.createServerTest@61f8bee4]" name="runScenario" duration-ms="1151" started-at="2019-08-19T15:09:42Z" description="鏂板鏈嶅姟" data-provider="story" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01 - case1:登录后新增服务，状态=空闲]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="zAfterMethod(java.lang.reflect.Method)[pri:0, instance:sence.createServerTest@61f8bee4]" name="zAfterMethod" is-config="true" duration-ms="1" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.createServerTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zAfterMethod -->
+        <test-method status="PASS" signature="aBeforeMethod(java.lang.reflect.Method)[pri:0, instance:sence.createServerTest@61f8bee4]" name="aBeforeMethod" is-config="true" duration-ms="0" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.createServerTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBeforeMethod -->
+        <test-method status="PASS" signature="runScenario(org.test4j.spec.inner.IScenario)[pri:0, instance:sence.createServerTest@61f8bee4]" name="runScenario" duration-ms="50" started-at="2019-08-19T15:09:43Z" description="鏂板鏈嶅姟" data-provider="story" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02 - case2:登录后新增服务，状态=使用中]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="zAfterMethod(java.lang.reflect.Method)[pri:0, instance:sence.createServerTest@61f8bee4]" name="zAfterMethod" is-config="true" duration-ms="1" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.createServerTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zAfterMethod -->
+        <test-method status="PASS" signature="cleanSpecPrinter()[pri:0, instance:sence.createServerTest@61f8bee4]" name="cleanSpecPrinter" is-config="true" duration-ms="4" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanSpecPrinter -->
+        <test-method status="PASS" signature="zAfterClass()[pri:0, instance:sence.createServerTest@61f8bee4]" name="zAfterClass" is-config="true" duration-ms="0" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zAfterClass -->
+      </class> <!-- sence.createServerTest -->
+      <class name="sence.loginTest">
+        <test-method status="PASS" signature="aBeforeClass(org.testng.ITestContext)[pri:0, instance:sence.loginTest@6ebc05a6]" name="aBeforeClass" is-config="true" duration-ms="1" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2059ae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBeforeClass -->
+        <test-method status="PASS" signature="initPrinter()[pri:0, instance:sence.loginTest@6ebc05a6]" name="initPrinter" is-config="true" duration-ms="0" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPrinter -->
+        <test-method status="PASS" signature="aBeforeMethod(java.lang.reflect.Method)[pri:0, instance:sence.loginTest@6ebc05a6]" name="aBeforeMethod" is-config="true" duration-ms="2" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.loginTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBeforeMethod -->
+        <test-method status="PASS" signature="runScenario(org.test4j.spec.inner.IScenario)[pri:0, instance:sence.loginTest@6ebc05a6]" name="runScenario" duration-ms="16" started-at="2019-08-19T15:09:43Z" data-provider="story" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01 - case1:输入正确用户名、密码]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="zAfterMethod(java.lang.reflect.Method)[pri:0, instance:sence.loginTest@6ebc05a6]" name="zAfterMethod" is-config="true" duration-ms="1" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.loginTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zAfterMethod -->
+        <test-method status="PASS" signature="aBeforeMethod(java.lang.reflect.Method)[pri:0, instance:sence.loginTest@6ebc05a6]" name="aBeforeMethod" is-config="true" duration-ms="1" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.loginTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBeforeMethod -->
+        <test-method status="PASS" signature="runScenario(org.test4j.spec.inner.IScenario)[pri:0, instance:sence.loginTest@6ebc05a6]" name="runScenario" duration-ms="15" started-at="2019-08-19T15:09:43Z" data-provider="story" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02 - case2:输入错误用户名]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="aBeforeMethod(java.lang.reflect.Method)[pri:0, instance:sence.loginTest@6ebc05a6]" name="aBeforeMethod" is-config="true" duration-ms="2" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.loginTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBeforeMethod -->
+        <test-method status="PASS" signature="zAfterMethod(java.lang.reflect.Method)[pri:0, instance:sence.loginTest@6ebc05a6]" name="zAfterMethod" is-config="true" duration-ms="0" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.loginTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zAfterMethod -->
+        <test-method status="PASS" signature="runScenario(org.test4j.spec.inner.IScenario)[pri:0, instance:sence.loginTest@6ebc05a6]" name="runScenario" duration-ms="12" started-at="2019-08-19T15:09:43Z" data-provider="story" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03 - case3:输入错误密码]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="zAfterMethod(java.lang.reflect.Method)[pri:0, instance:sence.loginTest@6ebc05a6]" name="zAfterMethod" is-config="true" duration-ms="0" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.loginTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zAfterMethod -->
+        <test-method status="PASS" signature="aBeforeMethod(java.lang.reflect.Method)[pri:0, instance:sence.loginTest@6ebc05a6]" name="aBeforeMethod" is-config="true" duration-ms="0" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.loginTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBeforeMethod -->
+        <test-method status="PASS" signature="runScenario(org.test4j.spec.inner.IScenario)[pri:0, instance:sence.loginTest@6ebc05a6]" name="runScenario" duration-ms="13" started-at="2019-08-19T15:09:43Z" data-provider="story" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[04 - case5:输入错误密码123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="zAfterMethod(java.lang.reflect.Method)[pri:0, instance:sence.loginTest@6ebc05a6]" name="zAfterMethod" is-config="true" duration-ms="1" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sence.loginTest.runScenario(org.test4j.spec.inner.IScenario) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zAfterMethod -->
+        <test-method status="PASS" signature="cleanSpecPrinter()[pri:0, instance:sence.loginTest@6ebc05a6]" name="cleanSpecPrinter" is-config="true" duration-ms="3" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanSpecPrinter -->
+        <test-method status="PASS" signature="zAfterClass()[pri:0, instance:sence.loginTest@6ebc05a6]" name="zAfterClass" is-config="true" duration-ms="0" started-at="2019-08-19T15:09:43Z" finished-at="2019-08-19T15:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zAfterClass -->
+      </class> <!-- sence.loginTest -->
+    </test> <!-- test4Demo -->
+  </suite> <!-- Default Suite -->
+</testng-results>

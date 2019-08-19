@@ -3,88 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="602d553e-fcf5-48d4-9b3f-bcf91a3975e1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jspec-output/sence/loginTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/jspec-output/sence/loginTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Dto/ServerDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBCUtil/DbConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBCUtil/JdbcHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBCUtil/JdbcUnits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBCUtil/testDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo.story" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/listener/ExtentTestNGIReporterListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/listener/TestListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sence/createServerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sence/createServerTest.story" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sence/loginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sence/loginTest.story" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testHttpClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/HttpClientUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/HttpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/JdbcUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/RandomUtil2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/SimpleHttpClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/baseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/test4Demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/test4Demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sence.createServerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sence.loginTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/test4Demo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Dto/ServerDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JDBCUtil/DbConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JDBCUtil/JdbcHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JDBCUtil/JdbcUnits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JDBCUtil/testDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/listener/ExtentTestNGIReporterListener$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/listener/ExtentTestNGIReporterListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/listener/TestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sence/createServerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sence/loginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testHttpClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/HttpClientUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/HttpClientUtils$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/HttpClientUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/HttpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/JdbcUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/RandomUtil2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/SimpleHttpClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/baseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,20 +18,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="-495">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Dto/ServerDto.java">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-output/html/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ExtentTestNGIReporterListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/listener/ExtentTestNGIReporterListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="1575">
+              <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +47,8 @@
       <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/listener/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="90">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
@@ -140,20 +69,39 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="195">
+              <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Resources/database.properties">
+      <file leaf-file-name="createServerTest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jspec-output/sence/createServerTest.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="test4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Resources/test4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="createServerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/sence/createServerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="71" column="65" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
+              <folding>
+                <element signature="e#2512#2529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baseCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/util/baseCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="encodings.xml" pinned="false" current-in-tab="false">
@@ -166,24 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-output/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1689">
-              <caret line="572" column="6" selection-start-line="572" selection-start-column="6" selection-end-line="572" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testHttpClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testHttpClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -253,8 +183,8 @@
         <option value="$PROJECT_DIR$/test-output/index.html" />
         <option value="$PROJECT_DIR$/src/test/java/listener/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/sence/loginTest.story" />
-        <option value="$PROJECT_DIR$/src/test/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/testng.xml" />
       </list>
     </option>
   </component>
@@ -338,15 +268,24 @@
             <path>
               <item name="test4Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="test4Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test4Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test4Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test4Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="test4Demo" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test4Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test4Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,20 +306,20 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hhx40\project\test4Demo2\test4Demo\src\test\java" />
+      <recent name="C:\Users\hhx40\project\test4Demo\src\test" />
       <recent name="C:\Users\hhx40\project\test4Demo\src\main\java" />
-      <recent name="C:\Users\hhx40\project\test4Demo\src\test\Resources" />
-      <recent name="C:\Users\hhx40\project\test4Demo\src\test\java\sence" />
       <recent name="C:\Users\hhx40\project\test4Demo\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Dto" />
       <recent name="util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hhx40\project\test4Demo2\test4Demo\src\test\java" />
-      <recent name="C:\Users\hhx40\project\test4Demo\src\test" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hhx40\project\test4Demo\src\main\java" />
+      <recent name="C:\Users\hhx40\project\test4Demo\src\test\Resources" />
+      <recent name="C:\Users\hhx40\project\test4Demo\src\test\java\sence" />
       <recent name="C:\Users\hhx40\project\test4Demo\src\test\java" />
     </key>
   </component>
@@ -396,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.createServerTest.runScenario">
+  <component name="RunManager" selected="TestNG.C:/Users/hhx40/project/test4Demo/src/test/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -592,8 +531,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.createServerTest.runScenario" />
         <item itemvalue="TestNG.C:/Users/hhx40/project/test4Demo/src/test/testng.xml" />
+        <item itemvalue="TestNG.createServerTest.runScenario" />
         <item itemvalue="Application.testDB" />
         <item itemvalue="TestNG.test.testMybatisSelectOne" />
         <item itemvalue="TestNG.loginTest.runScenario" />
@@ -616,7 +555,7 @@
       <workItem from="1565971180871" duration="45096000" />
       <workItem from="1566174787352" duration="4278000" />
       <workItem from="1566181225253" duration="1475000" />
-      <workItem from="1566188958794" duration="3548000" />
+      <workItem from="1566188958794" duration="5662000" />
     </task>
     <task id="LOCAL-00001" summary="第二次">
       <created>1566193663900</created>
@@ -629,58 +568,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.18 at 00h 16m 39s.xml">
-      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="createServerTest_runScenario - 2019.08.18 at 00h 16m 41s.xml">
-      <configuration name="createServerTest.runScenario" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.18 at 13h 34m 00s.xml">
-      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="createServerTest_runScenario - 2019.08.18 at 13h 34m 04s.xml">
-      <configuration name="createServerTest.runScenario" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="createServerTest_runScenario - 2019.08.19 at 08h 33m 50s.xml">
-      <configuration name="createServerTest.runScenario" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.19 at 08h 34m 12s.xml">
-      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="createServerTest_runScenario - 2019.08.19 at 09h 56m 36s.xml">
-      <configuration name="createServerTest.runScenario" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="createServerTest_runScenario - 2019.08.19 at 09h 56m 51s.xml">
-      <configuration name="createServerTest.runScenario" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="createServerTest_runScenario - 2019.08.19 at 09h 57m 15s.xml">
       <configuration name="createServerTest.runScenario" configurationId="TestNG" />
     </history-entry>
     <history-entry file="createServerTest_runScenario - 2019.08.19 at 09h 58m 19s.xml">
       <configuration name="createServerTest.runScenario" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.19 at 14h 36m 24s.xml">
+      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.19 at 14h 39m 07s.xml">
+      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.19 at 14h 49m 30s.xml">
+      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.19 at 14h 55m 43s.xml">
+      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.19 at 14h 57m 42s.xml">
+      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.19 at 15h 01m 28s.xml">
+      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.19 at 15h 02m 30s.xml">
+      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hhx40_project_test4Demo_src_test_testng_xml - 2019.08.19 at 15h 04m 03s.xml">
+      <configuration name="C:/Users/hhx40/project/test4Demo/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84202000" />
+    <option name="totallyTimeSpent" value="86316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32616487" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.20048505" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33452594" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40681005" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40681005" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23443815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23443815" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -690,7 +629,6 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3291592" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -757,20 +695,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/sence/loginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sence/loginTest.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sence/createServerTest.story">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -895,16 +819,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/sence/createServerTest.story">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/baseCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2565">
@@ -912,30 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sence/createServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="71" column="65" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sence/loginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jspec-output/sence/createServerTest.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/listener/ExtentTestNGIReporterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="108" column="70" selection-start-line="108" selection-start-column="70" selection-end-line="108" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,10 +870,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sence/createServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="71" column="65" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
+          <folding>
+            <element signature="e#2512#2529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/baseCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/listener/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/listener/TestListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="90">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
@@ -996,19 +920,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/html/overview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jspec-output/sence/createServerTest.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="195">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="-495">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/html/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

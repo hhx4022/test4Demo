@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  test4Demo</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test4Demo</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 19 15:09:42 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1352 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='sence.createServerTest.runScenario()'><b>runScenario</b><br>Test class: sence.createServerTest<br>Test method: 鏂板鏈嶅姟<br>Parameters: 01 - case1:登录后新增服务，状态=空闲</td>
+<td></td>
+<td>1</td>
+<td>sence.createServerTest@61f8bee4</td></tr>
+<tr>
+<td title='sence.createServerTest.runScenario()'><b>runScenario</b><br>Test class: sence.createServerTest<br>Test method: 鏂板鏈嶅姟<br>Parameters: 02 - case2:登录后新增服务，状态=使用中</td>
+<td></td>
+<td>0</td>
+<td>sence.createServerTest@61f8bee4</td></tr>
+<tr>
+<td title='sence.loginTest.runScenario()'><b>runScenario</b><br>Test class: sence.loginTest<br>Parameters: 01 - case1:输入正确用户名、密码</td>
+<td></td>
+<td>0</td>
+<td>sence.loginTest@6ebc05a6</td></tr>
+<tr>
+<td title='sence.loginTest.runScenario()'><b>runScenario</b><br>Test class: sence.loginTest<br>Parameters: 02 - case2:输入错误用户名</td>
+<td></td>
+<td>0</td>
+<td>sence.loginTest@6ebc05a6</td></tr>
+<tr>
+<td title='sence.loginTest.runScenario()'><b>runScenario</b><br>Test class: sence.loginTest<br>Parameters: 03 - case3:输入错误密码</td>
+<td></td>
+<td>0</td>
+<td>sence.loginTest@6ebc05a6</td></tr>
+<tr>
+<td title='sence.loginTest.runScenario()'><b>runScenario</b><br>Test class: sence.loginTest<br>Parameters: 04 - case5:输入错误密码123</td>
+<td></td>
+<td>0</td>
+<td>sence.loginTest@6ebc05a6</td></tr>
+</table><p>
+</body>
+</html>
