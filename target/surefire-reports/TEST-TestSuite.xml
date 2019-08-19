@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="1.529" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hhx40"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hhx40\project\test4Demo2\test4Demo"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hhx40\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\hhx40\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jre1.8.0_171\bin;%CATALINA_HOME%\lib;%CATALINA_HOME%\bin;C:\Users\hhx40\mysql-5.7.22-winx64\bin;C:\Program Files\Git\cmd;C:\Users\hhx40\apache-maven-3.5.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\hhx40\zookeeper-3.4.13\bin;C:\Python27;C:\Python27\Scripts;C:\Users\hhx40\AppData\Local\Microsoft\WindowsApps;;C:\Users\hhx40\AppData\Local\Programs\Fiddler;C:\Users\hhx40\AppData\Roaming\npm;C:\Users\hhx40\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Users\hhx40\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\hhx40\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\hhx40"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="hhx40"/>
+    <property name="java.class.path" value="C:\Users\hhx40\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\hhx40\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="runScenario" classname="sence.createServerTest" time="1.338"/>
+  <testcase name="runScenario" classname="sence.createServerTest" time="0.05"/>
+  <testcase name="runScenario" classname="sence.loginTest" time="0.014"/>
+  <testcase name="runScenario" classname="sence.loginTest" time="0.011"/>
+  <testcase name="runScenario" classname="sence.loginTest" time="0.012"/>
+  <testcase name="runScenario" classname="sence.loginTest" time="0.104">
+    <failure message="04 - case5:输入错误密码123&#10; throw an exception:&#10;java.lang.RuntimeException: Invoke class (sence.loginTest.java:1) method[checkMsg] error:&#10;Invoke spec method[checkMsg] error:java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]!&#10;java.lang.RuntimeException: Invoke class (sence.loginTest.java:1) method[checkMsg] error:&#10;Invoke spec method[checkMsg] error:java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]!&#10;	at org.test4j.spec.JSpecExecutorFactory.runSingleStep(JSpecExecutorFactory.java:216)&#10;	at org.test4j.spec.JSpecExecutorFactory.runScenario(JSpecExecutorFactory.java:178)&#10;	at org.test4j.testng.JSpec.run(JSpec.java:75)&#10;	at sence.loginTest.runScenario(loginTest.java:23)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)&#10;	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:182)&#10;	at org.test4j.testng.Test4JHookable.run(Test4JHookable.java:56)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:194)&#10;	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)&#10;	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)&#10;	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)&#10;	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)&#10;	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)&#10;	at org.testng.TestRunner.privateRun(TestRunner.java:767)&#10;	at org.testng.TestRunner.run(TestRunner.java:617)&#10;	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)&#10;	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)&#10;	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)&#10;	at org.testng.SuiteRunner.run(SuiteRunner.java:240)&#10;	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#10;	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#10;	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)&#10;	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)&#10;	at org.testng.TestNG.run(TestNG.java:1031)&#10;	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)&#10;	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)&#10;	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)&#10;Caused by: java.lang.RuntimeException: Invoke spec method[checkMsg] error:java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]&#10;	at org.test4j.spec.scenario.step.SpecMethod.execute(SpecMethod.java:98)&#10;	at org.test4j.spec.JSpecExecutorFactory.runSingleStep(JSpecExecutorFactory.java:210)&#10;	... 37 more&#10;Caused by: java.lang.RuntimeException: java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]&#10;	at org.test4j.tools.commons.ExceptionWrapper.wrapWithRuntimeException(ExceptionWrapper.java:106)&#10;	at org.test4j.tools.reflector.MethodAccessor.invokeUnThrow(MethodAccessor.java:75)&#10;	at org.test4j.spec.scenario.step.SpecMethod.execute(SpecMethod.java:93)&#10;	... 38 more&#10;Caused by: java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:176)&#10;	at org.testng.Assert.assertEquals(Assert.java:186)&#10;	at sence.loginTest.checkMsg(loginTest.java:55)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.test4j.tools.reflector.MethodAccessor.invoke(MethodAccessor.java:49)&#10;	at org.test4j.tools.reflector.MethodAccessor.invokeUnThrow(MethodAccessor.java:72)&#10;	... 39 more&#10;&#10;04 - case5:输入错误密码123 throw errors at:" type="org.test4j.spec.exceptions.ScenarioAssertError">org.test4j.spec.exceptions.ScenarioAssertError: 04 - case5:输入错误密码123
+ throw an exception:
+java.lang.RuntimeException: Invoke class (sence.loginTest.java:1) method[checkMsg] error:
+Invoke spec method[checkMsg] error:java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]!
+java.lang.RuntimeException: Invoke class (sence.loginTest.java:1) method[checkMsg] error:
+Invoke spec method[checkMsg] error:java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]!
+	at org.test4j.spec.JSpecExecutorFactory.runSingleStep(JSpecExecutorFactory.java:216)
+	at org.test4j.spec.JSpecExecutorFactory.runScenario(JSpecExecutorFactory.java:178)
+	at org.test4j.testng.JSpec.run(JSpec.java:75)
+	at sence.loginTest.runScenario(loginTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:182)
+	at org.test4j.testng.Test4JHookable.run(Test4JHookable.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:194)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.RuntimeException: Invoke spec method[checkMsg] error:java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]
+	at org.test4j.spec.scenario.step.SpecMethod.execute(SpecMethod.java:98)
+	at org.test4j.spec.JSpecExecutorFactory.runSingleStep(JSpecExecutorFactory.java:210)
+	... 37 more
+Caused by: java.lang.RuntimeException: java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]
+	at org.test4j.tools.commons.ExceptionWrapper.wrapWithRuntimeException(ExceptionWrapper.java:106)
+	at org.test4j.tools.reflector.MethodAccessor.invokeUnThrow(MethodAccessor.java:75)
+	at org.test4j.spec.scenario.step.SpecMethod.execute(SpecMethod.java:93)
+	... 38 more
+Caused by: java.lang.AssertionError: expected [用户名不存在！] but found [密码不正确！]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at sence.loginTest.checkMsg(loginTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.test4j.tools.reflector.MethodAccessor.invoke(MethodAccessor.java:49)
+	at org.test4j.tools.reflector.MethodAccessor.invokeUnThrow(MethodAccessor.java:72)
+	... 39 more
+
+04 - case5:输入错误密码123 throw errors at:
+	at org.test4j.spec.JSpecExecutorFactory.runScenario(JSpecExecutorFactory.java:191)
+	at org.test4j.testng.JSpec.run(JSpec.java:75)
+	at sence.loginTest.runScenario(loginTest.java:23)
+</failure>
+    <system-out><![CDATA[=============閹笛嗩攽缂佹挻鐏�: Success=============
+INFO: End executing test method[sence.loginTest . runScenario ()] in thread[1].
+
+INFO: 
+Begin executing test method[sence.loginTest . runScenario ()] in thread[1].
+=============閹笛嗩攽閻€劌濮忛弬瑙勭《: loginTest.runScenario(org.test4j.spec.inner.IScenario)[pri:0, instance:sence.loginTest@4667ae56]===============
+http://localhost:8081/api/user/login
+{"success":false,"message":"鐢ㄦ埛鍚嶄笉瀛樺湪锛�","data":null}
+
+
+====================Begin Scenario-04: case5:杈撳叆閿欒瀵嗙爜123====================
+* SUCCESS When	: login
+* FAILURE Then	: checkMsg
+====================End Scenario-04: case5:杈撳叆閿欒瀵嗙爜123====================
+]]></system-out>
+    <system-err><![CDATA[java.lang.RuntimeException: java.lang.AssertionError: expected [鐢ㄦ埛鍚嶄笉瀛樺湪锛乚 but found [瀵嗙爜涓嶆纭紒]
+	at org.test4j.tools.commons.ExceptionWrapper.wrapWithRuntimeException(ExceptionWrapper.java:106)
+	at org.test4j.tools.reflector.MethodAccessor.invokeUnThrow(MethodAccessor.java:75)
+	at org.test4j.spec.scenario.step.SpecMethod.execute(SpecMethod.java:93)
+	at org.test4j.spec.JSpecExecutorFactory.runSingleStep(JSpecExecutorFactory.java:210)
+	at org.test4j.spec.JSpecExecutorFactory.runScenario(JSpecExecutorFactory.java:178)
+	at org.test4j.testng.JSpec.run(JSpec.java:75)
+	at sence.loginTest.runScenario(loginTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:182)
+	at org.test4j.testng.Test4JHookable.run(Test4JHookable.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:194)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.AssertionError: expected [鐢ㄦ埛鍚嶄笉瀛樺湪锛乚 but found [瀵嗙爜涓嶆纭紒]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at sence.loginTest.checkMsg(loginTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.test4j.tools.reflector.MethodAccessor.invoke(MethodAccessor.java:49)
+	at org.test4j.tools.reflector.MethodAccessor.invokeUnThrow(MethodAccessor.java:72)
+	... 39 more
+ERROR: Invoke class (sence.loginTest.java:1) method[checkMsg] error:
+Invoke spec method[checkMsg] error:java.lang.AssertionError: expected [鐢ㄦ埛鍚嶄笉瀛樺湪锛乚 but found [瀵嗙爜涓嶆纭紒]!
+java.lang.RuntimeException: Invoke spec method[checkMsg] error:java.lang.AssertionError: expected [鐢ㄦ埛鍚嶄笉瀛樺湪锛乚 but found [瀵嗙爜涓嶆纭紒]
+	at org.test4j.spec.scenario.step.SpecMethod.execute(SpecMethod.java:98)
+	at org.test4j.spec.JSpecExecutorFactory.runSingleStep(JSpecExecutorFactory.java:210)
+	at org.test4j.spec.JSpecExecutorFactory.runScenario(JSpecExecutorFactory.java:178)
+	at org.test4j.testng.JSpec.run(JSpec.java:75)
+	at sence.loginTest.runScenario(loginTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:182)
+	at org.test4j.testng.Test4JHookable.run(Test4JHookable.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:194)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.RuntimeException: java.lang.AssertionError: expected [鐢ㄦ埛鍚嶄笉瀛樺湪锛乚 but found [瀵嗙爜涓嶆纭紒]
+	at org.test4j.tools.commons.ExceptionWrapper.wrapWithRuntimeException(ExceptionWrapper.java:106)
+	at org.test4j.tools.reflector.MethodAccessor.invokeUnThrow(MethodAccessor.java:75)
+	at org.test4j.spec.scenario.step.SpecMethod.execute(SpecMethod.java:93)
+	... 38 more
+Caused by: java.lang.AssertionError: expected [鐢ㄦ埛鍚嶄笉瀛樺湪锛乚 but found [瀵嗙爜涓嶆纭紒]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at sence.loginTest.checkMsg(loginTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.test4j.tools.reflector.MethodAccessor.invoke(MethodAccessor.java:49)
+	at org.test4j.tools.reflector.MethodAccessor.invokeUnThrow(MethodAccessor.java:72)
+	... 39 more
+* FAILURE Then	: checkMsg
+	Invoke class (sence.loginTest.java:1) method[checkMsg] error:
+Invoke spec method[checkMsg] error:java.lang.AssertionError: expected [鐢ㄦ埛鍚嶄笉瀛樺湪锛乚 but found [瀵嗙爜涓嶆纭紒]!
+]]></system-err>
+  </testcase>
+</testsuite>

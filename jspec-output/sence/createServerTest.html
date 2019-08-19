@@ -1,0 +1,49 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style>table {
+	background-color: #FFF;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin: 30px 40px 0px 40px;
+}
+
+table th {
+	padding-left: 5px;
+	color: #666;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #eeeeee;
+	height: 21px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+table td {
+	padding-left: 5px;
+	color: #333;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	height: 19px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+td.success {
+	color: green;
+}
+
+td.suspend {
+	color: gray;
+}
+
+td.failure {
+	color: red;
+}</style></head><body><div><table><tr><th colspan="2">case1:登录后新增服务，状态=空闲</th></tr><tr><td class="success">createServerTest</td><td>userName=admin
+    userPass=123456
+    serverStatus=free</td></tr><tr><td class="success">checkMsg</td><td>expectMsg=操作成功</td></tr><tr><td class="success">checkServerDB</td><td>sql=select server_name,server_status from server where server_name =? and server_status='free'</td></tr></table><table><tr><th colspan="2">case2:登录后新增服务，状态=使用中</th></tr><tr><td class="success">createServerTest</td><td>userName=admin
+    userPass=123456
+    serverStatus=used</td></tr><tr><td class="success">checkMsg</td><td>expectMsg=操作成功</td></tr><tr><td class="success">checkServerDB</td><td>sql=select * from server where server_name =? and server_status='used'</td></tr></table></div></body></html>
