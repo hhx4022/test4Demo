@@ -8,9 +8,13 @@
 
         </classes>
     </test> <!-- test4Demo -->
+
     <listeners>
         <listener class-name="listener.TestListener" />
-        <listener class-name="listener.ExtentTestNGIReporterListener" />
+        <!--<listener class-name="listener.ExtentTestNGIReporterListener" />-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
     </listeners>
+
 
 </suite> <!-- Default Suite -->
